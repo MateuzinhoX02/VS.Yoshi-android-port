@@ -118,11 +118,11 @@
 	<haxelib name="actuate" />
 	<haxelib name="extension-webm" if="desktop" />
 	<!--<haxelib name="extension-webview" if="android"/>-->
-    	<!--<haxelib name="AndroidTools" if="android"/>-->
+    <!--<haxelib name="AndroidTools" if="android"/>-->
 
 	<!--In case you want to use the ui package-->
 	<haxelib name="flixel-ui" />
-	<haxelib name="newgrounds"/>
+	<haxelib name="newgrounds" if="desktop"/>
 	<haxelib name="faxe" if='switch'/>
 	<haxelib name="polymod"/>
 	<haxelib name="discord_rpc" if="windows"/>
